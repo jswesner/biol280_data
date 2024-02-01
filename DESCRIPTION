@@ -1,5 +1,5 @@
 Package: biol280data
-Title: Automatically Makes All Gapminder Data Sets (And A Few Others) Available in R.
+Title: Automatically Makes All Gapminder Data Sets (And A Few Others) Available in R
 Version: 0.0.0.9000
 Authors@R: 
     person("Jeff", "Wesner", , "jeff.wesner@usd.edu", role = c("aut", "cre"),
@@ -7,12 +7,13 @@ Authors@R:
 Description: This package makes all of the datasets from Gapminder available automatically in R. It replaces the manual process
   of downloadin Gapminder data separately and then uploading it to R. As additional non-Gapminder data sets become available, they will
   be added.
-License: `use_mit_license()`
+License: MIT
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Depends: 
     R (>= 2.10)
 LazyData: true
+LazyDataCompression: bzip2
 Imports: 
     tibble
